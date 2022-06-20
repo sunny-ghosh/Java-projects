@@ -1,6 +1,6 @@
 // 1. W.A.P. in JAVA to calculate the Factorial of a number using recursion. //
 
-import java.util.*; 
+import java.util.Scanner; 
 class Krishnamurthy
 {
     int num,i,temp,sum=0;

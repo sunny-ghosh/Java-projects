@@ -36,7 +36,7 @@ class multi_inheritance
     {
         Scanner sc = new Scanner(System.in);
         l_area cone = new l_area();    
-        System.out.println("Enter the radius of the base of a cone : ");
+        System.out.print("Enter the radius of the base of a cone : ");
         int r = sc.nextInt();  
         System.out.println("Enter the height of a cone : ");
         int h = sc.nextInt();  

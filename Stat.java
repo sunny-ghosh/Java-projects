@@ -25,6 +25,6 @@ class Stat
     {
     	Student s = new Student();
     	s.Record(220043,"Sunny");
-    	Update();              //calling of static method without object of the class.
+    	// Update();              //calling of static method without object of the class.
     }
 }

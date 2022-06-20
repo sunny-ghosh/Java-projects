@@ -1,6 +1,6 @@
 // 7. W.A.P. in JAVA to show the example of Single Level Inheritance. //
 
-import java.util.*;   
+   
 class area
 {
     int l,b;
