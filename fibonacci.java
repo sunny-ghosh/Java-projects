@@ -24,7 +24,7 @@ class fibonacci
     public static void main(String args[]) 
     {
         Scanner sc = new Scanner(System.in);    
-        System.out.print("Enter the number as the range of the series ==>");     
+        System.out.print("Enter the number as the range of the series ==> ");     
         int count = sc.nextInt();                       // 'nextInt' is a method of Scanner class which accepts only integer input from the user.
         fibonacci_no fn = new fibonacci_no();
         fn.phi(count);
