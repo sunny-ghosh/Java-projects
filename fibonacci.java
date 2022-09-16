@@ -1,6 +1,6 @@
-// Q: W.A.P. in java to print the fibonacci series in a given range. //
-/* Here, this program is following the parameterized with no return type method. */ 
-// Code: //
+// // Q: W.A.P. in java to print the fibonacci series in a given range. //
+// /* Here, this program is following the parameterized with no return type method. */ 
+// // Code: //
 
 import java.util.*;             // * signifies all class, sub-packages and interfaces of util.package to be included in the program.
 
@@ -20,7 +20,7 @@ class fibonacci_no
     }    
 }
 class fibonacci
-{
+{  
     public static void main(String args[]) 
     {
         Scanner sc = new Scanner(System.in);    

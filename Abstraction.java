@@ -1,26 +1,28 @@
 // 1. W.A.P. in JAVA to show the example of "abstract" class. //
 
-abstract class A 
+abstract class rectangle
 {
-    void m1()
+    void area1(int l,int b)
     {
-        System.out.println("Welcome in SVIMS!");
+        int a1=l*b;
+        System.out.println("Area of rectangle is : "+a1);
     }
-    abstract void m2();
+    abstract void area2(int s);
 }
-class B extends A
+class square extends rectangle
 {
-    void m2()
+    void area2(int s)
     {
-        System.out.println("Hello JAVA...");
+        int a2=s*s;
+        System.out.println("Area of square is : "+a2);
     }
 }
 class Abstraction
 {
     public static void main(String args[])
-    { 
-        B ob = new B();
-        ob.m1();
-        ob.m2();
+    {
+        square obj=new square();
+        obj.area1(2,3);
+        obj.area2(4);
     }
 }

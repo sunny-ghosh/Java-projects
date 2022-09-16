@@ -27,7 +27,7 @@ class Armstrong_no
 
     }    
 }
-class armstrong
+class Armstrong
 {
     public static void main(String args[]) 
     {

@@ -1,5 +1,5 @@
 // Q: W.A.P in java to create a calculator. //
-// Code: //
+
 class G1
 {
  int n1,n2,sum,sub,mul,rem;
@@ -30,7 +30,7 @@ class G1
   System.out.println(rem);
  }
 }
-class calculator
+class Calculator
 {
    public static void main(String args[])
  {
