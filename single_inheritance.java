@@ -1,30 +1,37 @@
 // 7. W.A.P. in JAVA to show the example of Single Level Inheritance. //
 
-   
-class area
+class Spy
 {
-    int l,b;
-    void calculate1()
+    int n;
+    void shownumber(int n)
     {
-        System.out.println("The area of a rectangle is " + (l*b) + " .");
+        this.n = n;
+        System.out.println("The given number is " + n);
     }
 }
-class perimeter extends area
+class Calculate extends Spy
 {
-    void calculate2()
+    void check()
     {
-        System.out.println("The perimeter of a rectangle is " + (2*(l+b)) + " .");
+        int r,s=0,p=1,temp=n;
+        while(temp>0)
+        {
+            r=temp%10;
+            s=s+r;
+            p=p*r;
+            temp=temp/10;
+        if(s==p)
+            System.out.println(n+" is a spy number.");
+        else
+            System.out.println(n+" is not a spy number.");
     }
 }
-class single_inheritance
+class Single_Inheritance
 {
     public static void main(String args[])
     {
-        perimeter single = new perimeter();
-        single.l = 22;
-        single.b = 5;
-        single.calculate1();
-        single.calculate2();
+        Calculate ob = new Calculate();
+        ob.shownumber(1124);
+        ob.check();
     }
-    
 }
